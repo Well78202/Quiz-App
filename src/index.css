@@ -1,0 +1,152 @@
+#app-setting,
+#quiz {
+  background: linear-gradient(#e66465, #9198e5);
+}
+* {
+  font-family: Preahvihear, sans-serif;
+}
+body {
+  background-image: url("./assets/wa.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#dark-light {
+  position: fixed;
+  padding: 0.5rem;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 99999;
+}
+#dark-light i {
+  font-size: 15pt;
+  color: #0ff;
+  margin-left: 0.5em;
+}
+#dark-light h6 {
+  color: #f0f8ff;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+}
+#quiz-app,
+#quiz-finish,
+#quiz-page {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app-setting {
+  color: #f0f8ff;
+  width: 50%;
+  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  border-radius: 1rem;
+}
+#finish,
+#quiz {
+  width: 50%;
+  border-radius: 1rem;
+  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+}
+#app-title {
+  color: #f0f8ff;
+  text-align: center;
+}
+#title-span {
+  color: #deb887;
+}
+#quiz,
+#quiz h1 {
+  color: #f0f8ff;
+}
+#alert,
+#alert1 {
+  display: none;
+}
+#quiz {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.bg-spec {
+  background-color: #653383;
+}
+#quiz-body .text-spec button {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.answers-radio {
+  display: flex;
+  flex-direction: column;
+}
+.text-spec .question-place {
+  color: #f0f8ff;
+  display: flex;
+}
+.text-spec .question-place .data {
+  align-self: center;
+  font-size: 1.3rem;
+}
+.text-spec .question-place .head-data {
+  padding: 1em;
+  align-self: center;
+}
+#finish {
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  border-radius: 1rem;
+}
+#finish h1,
+h4,
+h5 {
+  color: #f0f8ff !important;
+}
+#finish .finish-head {
+  text-align: center;
+  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  border-radius: 1rem;
+}
+button:hover {
+  background-color: #e66465 !important;
+  color: #000 !important;
+}
+.clearFix {
+  clear: both;
+}
+
+@media screen and (max-width: 750px) {
+  #app-setting {
+    width: 80%;
+  }
+  .question-place {
+    width: 100%;
+  }
+  #quiz {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #app-setting {
+    width: 80%;
+  }
+  .question-place {
+    width: 100%;
+  }
+  #quiz {
+    width: 90%;
+  }
+}
